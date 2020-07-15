@@ -24,15 +24,15 @@ B  = '\033[1;37m\033[34m'
 
 G  = '\033[1;32m'
 
-print W+"   #~@~ FB FRIENDS MASS DELETER ~@~#"
+print W+"   #-- FB FRIENDS MASS DELETER --#"
 
-print "      #~@~ Coded By Deray ~@~#\n"
+print "      #-- AGIT RAMDANI --#\n"
 
 print "{}[++ {}Menu:\n".format(R,W)
 
 print "  {}[{}01{}]{} Mass delete".format(B,G,B,W)
 
-print "  {}[{}02{}]{} From list\n".format(B,G,B,W)
+print "  {}[{}02{}]{} DARI DAFTAR\n".format(B,G,B,W)
 
  
 
@@ -48,7 +48,7 @@ class mass():
 
         while True:
 
-            self.choice=raw_input('{}[++ {}Choice : '.format(R,W))
+            self.choice=raw_input('{}[++ {}MASUKAN PILIHAN : '.format(R,W))
 
             if self.choice == "":
 
